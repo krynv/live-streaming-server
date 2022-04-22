@@ -9,7 +9,7 @@ https://github.com/krynv/video-streaming-with-mongodb/
 
 ## Setup 
 
-Have `docker`, `docker-compose`, OBS and VLC installed.
+Have `docker`, `docker-compose` and OBS installed.
 
 ```
 git clone git@github.com:krynv/live-streaming-server.git && cd auth && npm i && cd ..
@@ -33,10 +33,10 @@ With the following stream key:
 krynv?key=supersecret
 ```
 
-Open VLC, click Open then select Network Stream
+Start streaming.
 
-Set the url to:
-```
-rtmp://localhost:1935/live/krynv
-```
+Open the webpage to view the stream (should load after some time):
+http://localhost:8080
 
+You will see all of the video data in the in the `./data/` folder of this project once you have started streaming.<br/>
+(`./data` is mapped to the `/tmp/hls` folder of the docker container)
