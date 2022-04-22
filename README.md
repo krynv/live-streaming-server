@@ -9,10 +9,6 @@ https://github.com/krynv/video-streaming-with-mongodb/
 
 ## Setup 
 
-```
-git clone git@github.com:krynv/live-streaming-server.git && npm i
-```
-
 Have `docker`, `docker-compose`, OBS and VLC installed.
 
 ```
